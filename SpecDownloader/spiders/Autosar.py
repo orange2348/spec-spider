@@ -17,3 +17,13 @@ class AutosarSpider(scrapy.Spider):
             item['file_urls'] = ['https://www.autosar.org/' + link]
             print(item['file_urls'])
             yield item
+
+    def closed(self, reason):
+        # from scrapy.mail import MailSender
+        
+        # mailer = MailSender()
+        
+        # body = 'AUTOSAR 文档已经下载完成'
+        # subject = 'AUTOSAR文件下载完成'
+        # mailer.send(to=["xxx@xxx.com"], subject = subject, body = body)
+        return

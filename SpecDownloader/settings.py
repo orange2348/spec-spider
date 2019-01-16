@@ -92,3 +92,11 @@ DOWNLOAD_TIMEOUT = 1800
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 ITEM_PIPELINES = {'SpecDownloader.pipelines.DownloadPipeline': 1}
 FILES_STORE = '.'
+
+# MAIL configuration
+MAIL_FROM = ''
+MAIL_HOST = ''
+MAIL_PORT = '25'
+MAIL_USER = ''
+MAIL_PASS = ''
+MAIL_SSL = False
