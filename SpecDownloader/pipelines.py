@@ -16,6 +16,6 @@ class DownloadPipeline(FilesPipeline):
     #         fp.writelines(item['name'] + '\n')
 
     def file_path(self, request, response=None, info=None):
-        print("*****************" + request.url)
+        print(request.url)
         path = urlparse(request.url).path
         return join(basename(dirname(path)), basename(path))
