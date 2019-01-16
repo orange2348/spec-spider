@@ -9,7 +9,10 @@ AUTOSAR官网spec爬虫
 
 #### 安装教程
 
-1. 安装scrapy
+1. 安装scrapy:
+   pip install scrapy
+1. 安装Beautiful Soup
+   pip install BeautifulSoup4
 
 
 #### 使用说明
