@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for movie project
+# Scrapy settings for SpecDownloader project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -16,7 +16,7 @@ NEWSPIDER_MODULE = 'SpecDownloader.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'movie (+http://www.yourdomain.com)'
+#USER_AGENT = 'SpecDownloader (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -49,13 +49,13 @@ DOWNLOAD_TIMEOUT = 1800
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'movie.middlewares.MovieSpiderMiddleware': 543,
+#    'SpecDownloader.middlewares.SpecSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'movie.middlewares.MovieDownloaderMiddleware': 543,
+#    'SpecDownloader.middlewares.SpecDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -67,7 +67,7 @@ DOWNLOAD_TIMEOUT = 1800
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'movie.pipelines.MoviePipeline': 300,
+#    'SpecDownloader.pipelines.DownloadPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
