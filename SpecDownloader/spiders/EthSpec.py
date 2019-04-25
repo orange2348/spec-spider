@@ -4,8 +4,8 @@ from SpecDownloader.items import DownloadItem
 from bs4 import BeautifulSoup
 
 
-class AutosarSpider(scrapy.Spider):
-    name = 'Autosar'
+class EthSpecSpider(scrapy.Spider):
+    name = 'EthSpec'
     allowed_domains = ['www.opensig.org']
     start_urls = ['http://www.opensig.org/Automotive-Ethernet-Specifications/']
 
@@ -23,7 +23,7 @@ class AutosarSpider(scrapy.Spider):
         
         # mailer = MailSender()
         
-        # body = 'AUTOSAR 文档已经下载完成'
-        # subject = 'AUTOSAR文件下载完成'
+        # body = 'ETH spec 文档已经下载完成'
+        # subject = 'Eth spec 文件下载完成'
         # mailer.send(to=["xxx@xxx.com"], subject = subject, body = body)
         return
