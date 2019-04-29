@@ -1,4 +1,4 @@
-# Autosar Spec spider
+# Spec spider
 
 #### Introduction
 spec spider, use scrapy framework to get some spec. Now it can spide the Autosar 4.4 and Eth specs.
