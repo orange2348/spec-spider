@@ -1,5 +1,7 @@
 # Spec spider
 
+[![Build Status](https://travis-ci.org/orange2348/spec-spider.svg?branch=master)](https://travis-ci.org/orange2348/spec-spider)
+
 #### Introduction
 spec spider, use scrapy framework to get some spec. Now it can spide the Autosar 4.4 and Eth specs.
 
