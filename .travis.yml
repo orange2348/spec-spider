@@ -1,6 +1,6 @@
 language: python
 python:
-  - "3.7"
+  - "3.7.1"
 install:
     - pip install scrapy
 # command to run tests
