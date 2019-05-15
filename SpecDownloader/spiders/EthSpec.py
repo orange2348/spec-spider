@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
 from SpecDownloader.items import DownloadItem
-from bs4 import BeautifulSoup
 
 
 class EthSpecSpider(scrapy.Spider):
