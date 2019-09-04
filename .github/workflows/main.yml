@@ -6,11 +6,18 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    
+    strategy:
+      matrix:
+        python: [3.7]
+     
     steps:
     - uses: actions/checkout@master
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version:${{ matrix.python-version }}
     - name: install scrapy
-      run: pip3 install scrapy
+      run: pip install scrapy
     - name: scrapy specs
       run: |
         scrapy crawl Autosar --nolog
