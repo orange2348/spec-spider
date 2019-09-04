@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: install scrapy
-      run: pip install scrapy
+      run: pip3 install scrapy
     - name: scrapy specs
       run: |
         scrapy crawl Autosar --nolog
