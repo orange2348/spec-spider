@@ -1,0 +1,17 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@master
+    - name: install scrapy
+      run: pip install scrapy
+    - name: scrapy specs
+      run: |
+        scrapy crawl Autosar --nolog
+        scrapy crawl EthSpec --nolog
