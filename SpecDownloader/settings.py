@@ -93,6 +93,8 @@ DOWNLOAD_TIMEOUT = 1800
 ITEM_PIPELINES = {'SpecDownloader.pipelines.DownloadPipeline': 1}
 FILES_STORE = '.'
 
+AUTOSAR_VER = "R20-11"       # Include: 4.0.0\R19-11\R20-11
+
 # MAIL configuration
 MAIL_FROM = ''
 MAIL_HOST = ''
