@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/orange2348/spec-spider.svg?branch=master)](https://travis-ci.org/orange2348/spec-spider)
 
 #### Introduction
-spec spider, use scrapy framework to get some spec. Now it can spide the Autosar 4.4„ÄÅR19-11„ÄÅR20-11 and Eth specs. You can specify the Autosar spec version you want to download in settings.py.
+spec spider, use scrapy framework to get some spec. Now it can spide the Autosar 4.4°¢R19-11°¢R20-11 and Eth specs. You can specify the Autosar spec version you want to download in settings.py.
 
 
 #### Install
